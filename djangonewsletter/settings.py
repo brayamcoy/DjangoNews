@@ -31,6 +31,7 @@ SECRET_KEY = ')^aaa+!a_4pwizhc6pvg0v!!0vzyhy361s^r5a6^8yl6hpc9@$'
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ["*"]
 
 
 # Application definition
